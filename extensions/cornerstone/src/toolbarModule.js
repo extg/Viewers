@@ -117,6 +117,15 @@ const definitions = [
     },
   },
   {
+    id: 'Contour',
+    label: 'Contour',
+    icon: 'edit',
+    //
+    type: TOOLBAR_BUTTON_TYPES.SET_TOOL_ACTIVE,
+    commandName: 'setToolActive',
+    commandOptions: { toolName: 'FreehandScissors' },
+  },
+  {
     id: 'More',
     label: 'More',
     icon: 'ellipse-circle',
