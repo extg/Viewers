@@ -72,6 +72,7 @@ export default function init({ servicesManager, configuration = {} }) {
     RectangleRoiTool,
     // Segmentation
     BrushTool,
+    FreehandScissorsTool,
   } = csTools;
   const tools = [
     PanTool,
@@ -95,6 +96,7 @@ export default function init({ servicesManager, configuration = {} }) {
     RectangleRoiTool,
     // Segmentation
     BrushTool,
+    FreehandScissorsTool,
   ];
 
   tools.forEach(tool => csTools.addTool(tool));
