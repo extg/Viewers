@@ -237,6 +237,15 @@ const definitions = [
       },
     ],
   },
+  {
+    id: 'active-contour',
+    label: 'active-contour',
+    icon: 'circle-o',
+    //
+    type: TOOLBAR_BUTTON_TYPES.SET_TOOL_ACTIVE,
+    commandName: 'setToolActive',
+    commandOptions: { toolName: 'ActiveContour' },
+  },
 ];
 
 export default {

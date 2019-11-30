@@ -49,6 +49,7 @@
     "classnames": "^2.2.6",
     "lodash.throttle": "^4.1.1",
     "query-string": "^6.8.3",
-    "react-cornerstone-viewport": "2.x.x"
+    "react-cornerstone-viewport": "2.x.x",
+    "cornerstone-active-contour": "file:/Users/a.ermakov/cornerstone-tool-active-contour"
   }
 }
