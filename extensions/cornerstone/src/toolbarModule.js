@@ -167,6 +167,15 @@ const definitions = [
         commandOptions: { toolName: 'RectangleRoi' },
       },
       {
+        id: 'FreehandRoi',
+        label: 'Freehand',
+        icon: 'circle-o',
+        //
+        type: TOOLBAR_BUTTON_TYPES.SET_TOOL_ACTIVE,
+        commandName: 'setToolActive',
+        commandOptions: { toolName: 'FreehandRoi' },
+      },
+      {
         id: 'Invert',
         label: 'Invert',
         icon: 'adjust',
