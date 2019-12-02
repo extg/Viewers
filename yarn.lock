@@ -5966,9 +5966,6 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-"cornerstone-active-contour@file:extensions/cornerstone-tool-active-contour":
-  version "1.0.0"
-
 cornerstone-core@^2.2.8:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/cornerstone-core/-/cornerstone-core-2.3.0.tgz#b16430b0dc3883c795fbbd5f64d0f6357f91c889"
@@ -5983,6 +5980,9 @@ cornerstone-math@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/cornerstone-math/-/cornerstone-math-0.1.8.tgz#68ab1f9e4fdcd7c5cb23a0d2eb4263f9f894f1c5"
   integrity sha512-x7NEQHBtVG7j1yeyj/aRoKTpXv1Vh2/H9zNLMyqYJDtJkNng8C4Q8M3CgZ1qer0Yr7eVq2x+Ynmj6kfOm5jXKw==
+
+"cornerstone-tool-active-contour@file:extensions/cornerstone-tool-active-contour":
+  version "1.0.0"
 
 cornerstone-tools@^4.0.9, cornerstone-tools@^4.8.1:
   version "4.8.1"

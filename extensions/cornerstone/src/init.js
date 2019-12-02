@@ -1,11 +1,10 @@
 import OHIF from '@ohif/core';
 import cornerstone from 'cornerstone-core';
 import csTools from 'cornerstone-tools';
-import initCornerstoneTools from './initCornerstoneTools.js';
+import ActiveContourTool from 'cornerstone-tool-active-contour';
 import queryString from 'query-string';
-// import ActiveContourTool from 'cornerstone-active-contour/src/index.js';
 
-// console.log(ActiveContourTool)
+import initCornerstoneTools from './initCornerstoneTools.js';
 
 function fallbackMetaDataProvider(type, imageId) {
   if (!imageId.includes('wado?requestType=WADO')) {
@@ -99,7 +98,7 @@ export default function init({ servicesManager, configuration = {} }) {
     RectangleRoiTool,
     // Segmentation
     BrushTool,
-    // ActiveContourTool
+    ActiveContourTool,
   ];
 
   tools.forEach(tool => csTools.addTool(tool));
