@@ -123,7 +123,7 @@ const definitions = [
     //
     type: TOOLBAR_BUTTON_TYPES.SET_TOOL_ACTIVE,
     commandName: 'setToolActive',
-    commandOptions: { toolName: 'FreehandScissors' },
+    commandOptions: { toolName: 'Contour' },
   },
   {
     id: 'More',
